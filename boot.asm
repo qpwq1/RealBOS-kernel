@@ -159,6 +159,7 @@ dap:
     dw 0x1000      ; 2字节：目标地址偏移
     dw 0x0000      ; 2字节：目标地址段
     dq 0           ; 8字节：起始LBA扇区号
+    
      
 Driver db 0,0  ;存储 BIOS 传来的驱动器号
 DriverNum db 0
