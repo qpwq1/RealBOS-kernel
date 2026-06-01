@@ -1,5 +1,5 @@
 @echo off
-set BASE=C:\Users\XaoDing\Desktop\C++\BOS-ASM
+set BASE=.\
 cd /d "%BASE%"
 
 echo Compiling...
