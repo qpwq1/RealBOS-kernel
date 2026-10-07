@@ -2,7 +2,7 @@
 [org 0x7C00]
 jmp Boot_init
 OS_init_text db 'Starting OS...',0
-no_find_stage2 db 'Stage2 is not find',0
+no_find_stage2 db 'Stage2 is not found',0
 
 Boot_init:
     cli
