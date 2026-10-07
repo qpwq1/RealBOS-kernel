@@ -62,7 +62,7 @@ Boot_find:
     mov dx,[0x81FE]
     cmp dx,0x4F53 ;识别尾部签名
     jnz .error
-    jmp 0x0000:0x7E00
+    jmp 0x0000:0x7E02
 
 .error:
     mov si,no_find_stage2
