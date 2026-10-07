@@ -60,7 +60,7 @@ Boot_find:
     jnz .error
 
     mov dx,[0x81FE]
-    cmp dx,0x4F53
+    cmp dx,0x4F53 ;识别尾部签名
     jnz .error
     jmp 0x0000:0x7E00
 
